@@ -1,129 +1,64 @@
-.wrapper{
-display: block;
-    background-color: rgb(107, 2, 107);
-position: relative;
-background-image: url(assets/images/bg-desktop.svg);
-height:750px ;
-}
-.logo{
-    display: block;
-    margin-top: 60px;
-    margin-left: 50px;
-}
-.mockups{
-    display: block;
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 50px;
-
-}
-.build{
-    color: azure;
-    font-family: sans-serif;
-    position: flex;
-    margin-left: 800px;
-    margin-top: 130px;
-}
-.huddle{
-     color: azure;
-    font-family: sans-serif;
-    position: flex;
-    margin-left: 800px; 
-}
-.btn{
-    display: block;
-    height: 40px;
-    width: 150px;
-    background-color: antiquewhite;
-    border-color: blueviolet;
-    color: blueviolet;
-    border-radius: 20px;
-    position:flex;
-     margin-left: 800px; 
-    cursor: pointer;
-}
-.facebook{
-    color: aliceblue;
-    margin-left: 1100px;
-    margin-top: 150px;
-}
-.twitter{
-    color: antiquewhite;
-    margin-left: 30px;
-    margin-top: 160px;
-}
-.insta{
-   color: antiquewhite;
-    margin-left: 30px;
-    margin-top: 160px;  
-}
-
-/* responsive */
 @media screen and (max-width: 768px) {
-.wrapper{
-display: block;
-    background-color: rgb(107, 2, 107);
-position: relative;
-background-image: url(assets/images/bg-desktop.svg);
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    display: flex;
+.container{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+    .wrapper{
+display: block;
+    background-color: rgb(107, 2, 107);
+background-image: url(assets/images/bg-desktop.svg);
+    background-size: cover;
     background-position: center;
 }
 .logo{
-    margin-top: 60px;
-    margin-left: 50px;
+   margin: auto;
 }
 .mockups{
-    margin-top: auto;
-    margin-left: 0;
+    margin: auto;
 
 }
 .build{
     color: azure;
     font-family: sans-serif;
-    margin-left: 0;
-    margin-top: auto;
+   margin: auto;
     text-align: center;
 }
 .huddle{
      color: azure;
     font-family: sans-serif;
-    margin-left:0;
     text-align: center; 
-    margin-top: auto;
+   margin: auto;
 }
 .btn{
     display: block;
     height: 40px;
-    width: 100px;
+    width: 80%;
     background-color: antiquewhite;
     border-color: blueviolet;
     color: blueviolet;
     border-radius: 20px;
     position:flex;
-     margin-left: 0; 
+     margin: auto;
     cursor: pointer;
-    color: rgb(166, 45, 110);
+    fill: rgb(166, 45, 110);
 }
 .facebook{
    color: antiquewhite;
-    margin-left:0;
+    margin-left:auto;
     margin-top: 20px;
+    width: 30px;
 }
 .twitter{
     color: antiquewhite;
-    margin-left:0;
+    margin-left:auto;
     margin-top: 20px;
+    width: 30px;
 }
 .insta{
 color: antiquewhite;
-    margin-left:0;
+    margin-left:auto;
     margin-top: 20px;
- 
+ width: 30px;
 }
 }
