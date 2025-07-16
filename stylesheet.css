@@ -16,7 +16,8 @@ background-image: url(assets/images/bg-desktop.svg);
 }
 .mockups{
     margin: auto;
-
+display: block;
+block-size: 200px;
 }
 .build{
     color: azure;
@@ -45,20 +46,20 @@ background-image: url(assets/images/bg-desktop.svg);
 }
 .facebook{
    color: antiquewhite;
-    margin-left:auto;
+    margin-left:50px;
     margin-top: 20px;
     width: 30px;
 }
 .twitter{
     color: antiquewhite;
-    margin-left:auto;
-    margin-top: 20px;
+    margin-left:20px;
+    margin-top: 14px;
     width: 30px;
 }
 .insta{
 color: antiquewhite;
-    margin-left:auto;
-    margin-top: 20px;
+    margin-left:20px;
+    margin-top: 14px;
  width: 30px;
 }
 }
