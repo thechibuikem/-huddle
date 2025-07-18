@@ -1,4 +1,10 @@
-@media screen and (max-width: 1200px) {
+.mockups{
+    margin: auto;
+display: block;
+block-size: 180px;
+display: flex;
+}
+@media screen and (max-width: 550px) {
 .container{
     flex-direction: column;
     align-items: center;
@@ -13,11 +19,6 @@ background-image: url(assets/images/bg-desktop.svg);
 }
 .logo{
    margin: auto;
-}
-.mockups{
-    margin: auto;
-display: block;
-block-size: 200px;
 }
 .build{
     color: azure;
@@ -34,7 +35,7 @@ block-size: 200px;
 .btn{
     display: block;
     height: 40px;
-    width: 80%;
+    width: 75px;
     background-color: antiquewhite;
     border-color: blueviolet;
     color: blueviolet;
@@ -47,19 +48,23 @@ block-size: 200px;
 .facebook{
    color: antiquewhite;
     margin-left:50px;
-    margin-top: 20px;
+    margin-top: 30px;
     width: 30px;
+    cursor: pointer;
 }
 .twitter{
     color: antiquewhite;
-    margin-left:20px;
-    margin-top: 14px;
-    width: 30px;
+    margin-top: 30px;
+    width: 90px;
+    cursor: pointer;
 }
 .insta{
 color: antiquewhite;
-    margin-left:20px;
-    margin-top: 14px;
  width: 30px;
+ margin-bottom: 8px;
+ cursor: pointer;
+}
+.nav{
+    color: plum;
 }
 }
